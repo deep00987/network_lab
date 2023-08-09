@@ -27,7 +27,6 @@ def main():
     conn = None
     try:
         conn, addr = server.accept()
-            
         msg = f"current date-time : {datetime.now()}".encode()
         data = conn.recv(BUFF_SIZE)
         print ("Client --> ", data.decode())
