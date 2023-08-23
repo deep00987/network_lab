@@ -7,17 +7,19 @@ import threading
 
 class SokServer(object):
     """
+
     Socket server class
+
+    reject any request with mthods other than GET (for now)
     
     request struct --> {
         method : GET | POST | PUT | DELETE 
-        payload ?: {data} OR None (optional)
-        msg: "message"
+        msg: "math expression"
     }
     
     response struct --> {
         status: NUMBER
-        data: response data OR error msg
+        data: response (math expression) data OR error msg
     }
     
     """
@@ -43,6 +45,7 @@ class SokServer(object):
             sys.exit(1)
         
         # start listenting for incoming connection
+
         self.listen() 
 
     def listen(self):
@@ -50,11 +53,13 @@ class SokServer(object):
         listen for incoming connection/request to the server 
         """
         self.socket.listen(5)
+
         while True:
             
             clientSok, addr = self.socket.accept()
             clientSok.settimeout(30)
             print(f"Received connection from address: {addr}")
+
             ## TODO: handle conncurrent connection(Threads)
             
             threading.Thread(target=self.handle_request, args=(clientSok, addr)).start()
@@ -64,6 +69,7 @@ class SokServer(object):
         """
             handle incoming request and send appropriate response
         """
+
         PACKET = 1024
             
         try:
@@ -76,9 +82,13 @@ class SokServer(object):
             if decoded_data["method"] != "GET":
                 raise Exception("Unknown request method or method not supported")
             
+            print("client >", decoded_data['msg'])
+
+            res = eval(decoded_data['msg'])
+
             response = {
                 "status" : 200,
-                "data": str(datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+                "data": res
             }
             
             json_response = json.dumps(response)
@@ -107,11 +117,11 @@ class SokServer(object):
 
 def shutdownServer(sig, unused):
     """
-    Shutsdown server from a SIGINT recieved signal
+    Shutdown server from a SIGINT recieved signal
     """
     server.stop_server()
     sys.exit(1)
 
 signal.signal(signal.SIGINT, shutdownServer)
-server = SokServer(6969)
+server = SokServer(7000)
 server.start_server()

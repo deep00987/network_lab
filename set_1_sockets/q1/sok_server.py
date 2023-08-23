@@ -5,9 +5,12 @@ import sys
 import json
 import threading
 
+
 class SokServer(object):
     """
     Socket server class
+
+    reject any request with mthods other than GET (for now)
     
     request struct --> {
         method : GET | POST | PUT | DELETE 
@@ -52,8 +55,9 @@ class SokServer(object):
         while True:
             
             clientSok, addr = self.socket.accept()
-            clientSok.settimeout(30)
+            # clientSok.settimeout(30)
             print(f"Received connection from address: {addr}")
+
             ## TODO: handle conncurrent connection(Threads)
             
             threading.Thread(target=self.handle_request, args=(clientSok, addr)).start()
@@ -75,6 +79,9 @@ class SokServer(object):
             if decoded_data["method"] != "GET":
                 raise Exception("Unknown request method or method not supported")
             
+            if decoded_data['msg'] != "Get time":
+                raise Exception("Unknown request command or commad not supported")
+
             response = {
                 "status" : 200,
                 "data": str(datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
@@ -82,7 +89,8 @@ class SokServer(object):
             
             json_response = json.dumps(response)
             client.sendall(json_response.encode())
-
+            client.close()
+            
         except Exception as e:
             print(e)
             err_res = {
@@ -90,7 +98,7 @@ class SokServer(object):
                 "data": str(e)
             }  
             client.sendall(json.dumps(err_res).encode())
-
+            client.close()
     def stop_server(self):
         """
         Shutdown server
@@ -112,5 +120,5 @@ def shutdownServer(sig, unused):
     sys.exit(1)
 
 signal.signal(signal.SIGINT, shutdownServer)
-server = SokServer(6969)
+server = SokServer(7000)
 server.start_server()

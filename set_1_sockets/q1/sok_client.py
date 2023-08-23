@@ -2,7 +2,7 @@ import socket
 import json
 
 HOST = socket.gethostname().split('.')[0]
-PORT = 6969
+PORT = 7000
 BUFF_SIZE = 1024
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as skt:
@@ -11,7 +11,8 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as skt:
     req["method"] = "GET"
     
     print(f"Client connected on {HOST}:{PORT}")
-    msg = "What's the current date ?"
+    msg = input("Enter command: ")
+    # msg = "What's the current date ?>"
     req["msg"] = msg
     skt.sendall(json.dumps(req).encode())    
 
