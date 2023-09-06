@@ -63,7 +63,7 @@ packets = capture_packets(10000)
 print(packets)
 
 pkt_info_dict = get_packet_details(packets)
-print(pkt_info_dict)
+# print(pkt_info_dict)
 print("\n\n========= Output =========\n\n")
 print("+-----------------------+-----------------------+---------------+---------------+-----------------------+-----------------------+-----------------------+\t")
 print("| Source IP\t\t|\tDestination IP\t|\tS-port\t|\tD-port\t|\tProtocol\t|\tNo of segments\t|\tAvg payload len |\t")
