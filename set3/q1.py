@@ -1,6 +1,6 @@
 import ipaddress
 import concurrent.futures
-from scapy.all import Ether, IP, TCP, ICMP, sr1, srloop
+from scapy.all import Ether, IP, TCP, ICMP, sr, sr1, srloop
 
 
 
@@ -92,30 +92,39 @@ def network_scan(hosts):
     for host in hosts:
         packet = IP(dst=host) / ICMP() / "Hello"
 
-        response = srloop(packet, count=1, verbose=False, timeout=1)[0]
+        # response = srloop(packet, count=1, verbose=False, timeout=1)[0]
+        response = sr1(packet, verbose=False, timeout=1)
         
-        if len(response) == 0:
-            continue
-        elif response[0][1][ICMP].type == 0:
-            print(response[0][1][ICMP].type)
+        if response:
             print(f"{host} --> responsive")
-            alive.append(host)
-        else:
-            continue
+            alive.append(host) 
+        
+        # if len(response) == 0:
+        #     continue
+        
+        # elif response[0][1][ICMP].type == 0:
+        #     print(response[0][1][ICMP].type)
+        #     print(f"{host} --> responsive")
+        #     alive.append(host)
+        # else:
+        #     continue
         # if response == None:
         #     continue
         # elif response[0][1][ICMP].type == 0:
         #     print(f"{host} --> responsive")
         #     alive.append(host)
-            
+        
+    print("All responsive host ip address -----")         
     print(alive)
             
 
 ip = input("enter ip: ") 
 hosts = get_all_network_hosts(ip)  
 
+print("All host ip addresses in the network range -----")
 print(hosts)
 
+print("Scanning network to find responsive hosts -----")
 network_scan(hosts)
 
 
