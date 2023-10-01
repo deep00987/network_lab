@@ -51,7 +51,7 @@ def get_packet_details(pkts):
         
     return host_dst_pairs
 
-packets = capture_packets(10000)
+packets = capture_packets(100)
 print(packets)
 
 pkt_info_dict = get_packet_details(packets)

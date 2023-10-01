@@ -129,18 +129,6 @@ network_scan(hosts)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 # hosts1 = []
 # network = ipaddress.IPv4Network(ip, strict=False)
 # for host in network.hosts():
