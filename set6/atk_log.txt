@@ -1,0 +1,57 @@
+PS C:\Users\monda\OneDrive\Desktop\network_lab\set6> python atk.py
+Starting Atk -------
+Gateway IP address: 192.168.0.1
+Target IP address: 192.168.0.188
+Gateway MAC address: 50:2b:73:4c:da:30
+Target MAC address: ba:85:79:ee:52:e2
+Arp atk started ----
+.
+Sent 1 packets.
+.
+Sent 1 packets.
+.
+Sent 1 packets.
+.
+Sent 1 packets.
+.
+Sent 1 packets.
+.
+Sent 1 packets.
+.
+Sent 1 packets.
+.
+Sent 1 packets.
+.
+Sent 1 packets.
+.
+Sent 1 packets.
+.
+Sent 1 packets.
+.
+Sent 1 packets.
+.
+Sent 1 packets.
+.
+Sent 1 packets.
+.
+Sent 1 packets.
+.
+Sent 1 packets.
+.
+Sent 1 packets.
+.
+Sent 1 packets.
+.
+Sent 1 packets.
+.
+Sent 1 packets.
+.
+Sent 1 packets.
+.
+Sent 1 packets.
+Stopping arp attack ----
+.....
+Sent 5 packets.
+.....
+Sent 5 packets.
+PS C:\Users\monda\OneDrive\Desktop\network_lab\set6>

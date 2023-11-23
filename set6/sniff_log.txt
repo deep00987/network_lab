@@ -1,0 +1,152 @@
+PS C:\Users\monda\OneDrive\Desktop\network_lab\set6> python arpp.py
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.188
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Response: ba:85:79:ee:52:e2 has address 192.168.0.188
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.188
+[*] Response: ba:85:79:ee:52:e2 has address 192.168.0.188
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.1
+[!] Possible Arp poisoning --> Response: 50:2b:73:4c:da:30 has address 192.168.0.188
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[!] Possible Arp poisoning --> Response: ba:85:79:ee:52:e2 has address 192.168.0.1
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.188
+[*] Response: ba:85:79:ee:52:e2 has address 192.168.0.188
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.188
+[*] Response: ba:85:79:ee:52:e2 has address 192.168.0.188
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.188
+[*] Response: ba:85:79:ee:52:e2 has address 192.168.0.188
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.188
+[*] Response: ba:85:79:ee:52:e2 has address 192.168.0.188
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[!] Possible Arp poisoning --> Response: 50:2b:73:4c:da:30 has address 192.168.0.188
+[!] Possible Arp poisoning --> Response: ba:85:79:ee:52:e2 has address 192.168.0.1
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.188
+[*] Response: ba:85:79:ee:52:e2 has address 192.168.0.188
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.188
+[*] Response: ba:85:79:ee:52:e2 has address 192.168.0.188
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.188
+[*] Response: ba:85:79:ee:52:e2 has address 192.168.0.188
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.188
+[*] Response: ba:85:79:ee:52:e2 has address 192.168.0.188
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.188
+[*] Response: ba:85:79:ee:52:e2 has address 192.168.0.188
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.188
+[*] Response: ba:85:79:ee:52:e2 has address 192.168.0.188
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.188
+[*] Response: ba:85:79:ee:52:e2 has address 192.168.0.188
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.188
+[*] Response: ba:85:79:ee:52:e2 has address 192.168.0.188
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.188
+[*] Response: ba:85:79:ee:52:e2 has address 192.168.0.188
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[!] Possible Arp poisoning --> Response: 50:2b:73:4c:da:30 has address 192.168.0.188
+[!] Possible Arp poisoning --> Response: ba:85:79:ee:52:e2 has address 192.168.0.1
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.188
+[*] Response: ba:85:79:ee:52:e2 has address 192.168.0.188
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.188
+[*] Response: ba:85:79:ee:52:e2 has address 192.168.0.188
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.188
+[*] Response: ba:85:79:ee:52:e2 has address 192.168.0.188
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.188
+[*] Response: ba:85:79:ee:52:e2 has address 192.168.0.188
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.188
+[*] Response: ba:85:79:ee:52:e2 has address 192.168.0.188
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.188
+[*] Response: ba:85:79:ee:52:e2 has address 192.168.0.188
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.188
+[*] Response: ba:85:79:ee:52:e2 has address 192.168.0.188
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.188
+[*] Response: ba:85:79:ee:52:e2 has address 192.168.0.188
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.188
+[*] Response: ba:85:79:ee:52:e2 has address 192.168.0.188
+[*] Response: ba:85:79:ee:52:e2 has address 192.168.0.188
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.188
+[*] Response: ba:85:79:ee:52:e2 has address 192.168.0.188
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.188
+[*] Response: ba:85:79:ee:52:e2 has address 192.168.0.188
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[!] Possible Arp poisoning --> Response: 50:2b:73:4c:da:30 has address 192.168.0.188
+[!] Possible Arp poisoning --> Response: ba:85:79:ee:52:e2 has address 192.168.0.1
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.188
+[*] Response: ba:85:79:ee:52:e2 has address 192.168.0.188
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.188
+[*] Response: ba:85:79:ee:52:e2 has address 192.168.0.188
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.188
+[*] Response: ba:85:79:ee:52:e2 has address 192.168.0.188
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.188
+[*] Response: ba:85:79:ee:52:e2 has address 192.168.0.188
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.188
+[*] Response: ba:85:79:ee:52:e2 has address 192.168.0.188
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.188
+[*] Response: ba:85:79:ee:52:e2 has address 192.168.0.188
+[*] Request: 192.168.0.189 with MAC e0:d5:5e:85:ca:25 is asking about 192.168.0.1
+PS C:\Users\monda\OneDrive\Desktop\network_lab\set6>

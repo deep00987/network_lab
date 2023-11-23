@@ -1,0 +1,78 @@
+PS C:\Users\monda\OneDrive\Desktop\network_lab\set6> python arpp.py
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Response: 0e:7f:7a:45:41:9a has address 192.168.0.194
+[*] Response: 0e:7f:7a:45:41:9a has address 192.168.0.194
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[!] Possible Arp poisoning --> Response: 50:2b:73:4c:da:30 has address 192.168.0.194
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[!] Possible Arp poisoning --> Response: 0e:7f:7a:45:41:9a has address 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Response: 0e:7f:7a:45:41:9a has address 192.168.0.194
+[*] Response: 0e:7f:7a:45:41:9a has address 192.168.0.194
+[*] Response: 0e:7f:7a:45:41:9a has address 192.168.0.194
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Response: 0e:7f:7a:45:41:9a has address 192.168.0.194
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Response: 0e:7f:7a:45:41:9a has address 192.168.0.194
+[*] Response: 0e:7f:7a:45:41:9a has address 192.168.0.194
+[*] Response: 0e:7f:7a:45:41:9a has address 192.168.0.194
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Response: 0e:7f:7a:45:41:9a has address 192.168.0.194
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[!] Possible Arp poisoning --> Response: 50:2b:73:4c:da:30 has address 192.168.0.194
+[!] Possible Arp poisoning --> Response: 0e:7f:7a:45:41:9a has address 192.168.0.1
+[*] Response: 0e:7f:7a:45:41:9a has address 192.168.0.194
+[*] Response: 0e:7f:7a:45:41:9a has address 192.168.0.194
+[*] Response: 0e:7f:7a:45:41:9a has address 192.168.0.194
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Response: 0e:7f:7a:45:41:9a has address 192.168.0.194
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Response: 0e:7f:7a:45:41:9a has address 192.168.0.194
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Response: 0e:7f:7a:45:41:9a has address 192.168.0.194
+[*] Response: 0e:7f:7a:45:41:9a has address 192.168.0.194
+[*] Response: 0e:7f:7a:45:41:9a has address 192.168.0.194
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Response: 0e:7f:7a:45:41:9a has address 192.168.0.194
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[!] Possible Arp poisoning --> Response: 50:2b:73:4c:da:30 has address 192.168.0.194
+[!] Possible Arp poisoning --> Response: 0e:7f:7a:45:41:9a has address 192.168.0.1
+[*] Response: 0e:7f:7a:45:41:9a has address 192.168.0.194
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Response: 0e:7f:7a:45:41:9a has address 192.168.0.194
+[*] Response: 0e:7f:7a:45:41:9a has address 192.168.0.194
+[*] Response: 0e:7f:7a:45:41:9a has address 192.168.0.194
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Response: 0e:7f:7a:45:41:9a has address 192.168.0.194
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Response: 0e:7f:7a:45:41:9a has address 192.168.0.194
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Response: 0e:7f:7a:45:41:9a has address 192.168.0.194
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Response: 0e:7f:7a:45:41:9a has address 192.168.0.194
+[*] Response: 0e:7f:7a:45:41:9a has address 192.168.0.194
+[*] Response: 0e:7f:7a:45:41:9a has address 192.168.0.194
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Response: 0e:7f:7a:45:41:9a has address 192.168.0.194
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+[*] Response: 50:2b:73:4c:da:30 has address 192.168.0.1
+PS C:\Users\monda\OneDrive\Desktop\network_lab\set6>

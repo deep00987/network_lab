@@ -2,8 +2,6 @@ import ipaddress
 import concurrent.futures
 from scapy.all import Ether, IP, TCP, ICMP, sr, sr1, srloop
 
-
-
 def network_info(ip_cidr_addr):
     ip, cidr = ip_cidr_addr.split('/')
     cidr_num =  int(cidr)
